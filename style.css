@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+  font-family: "star";
+  src: url(../fonts/StardustAdventure.ttf)
+}
+
+@font-face {
+  font-family: "bm";
+  src: url(../fonts/BroadMarker.ttf)
+}
+
+#logo {
+    float: left;
+    margin-left:30px;
+    margin-top: 15px;
+}
+header {
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+nav {
+      float: right;
+      margin: 30px 40px 30px 30px ;
+      font-size: 20px;
+}
+nav li {
+   list-style: none;
+   display: inline-block;
+}
+body {
+    background-image: url('assets/images/background.jpg');
+}
+
+.images{
+  width: 300px;
+  height: 500px;
+  margin: auto;
+}
+
+.article1{
+      background-color: white;
+      margin-left: 200px;
+      margin-right: 200px;
+      margin-top: 200px;
+      margin-bottom: 100px;
+      min-height: 800px;
+      padding-top: 60px;
+}
+p{
+  text-align: justify;
+  margin-left: 50px;
+  margin-top: -280px;
+  margin-right: 50px;
+}
+.galery{
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+.desc {
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+h5{
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  margin: auto;
+}
+footer {
+  background-color: white;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  margin-top: 180px;
+  padding-top: 50px;
+  padding-left: 10px;
+  color: black;
+  padding-bottom: 80px;
+}
